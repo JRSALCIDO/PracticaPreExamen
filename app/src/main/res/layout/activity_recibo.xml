@@ -20,6 +20,7 @@
             android:textStyle="bold"
             android:gravity="center"
             tools:ignore="HardcodedText"
+            android:textColor="@color/black"
             android:background="@color/fondo"/>
         <TextView
             android:layout_width="match_parent"
@@ -169,6 +170,8 @@
                     android:id="@+id/subtotalEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:textColor="@color/white"
                     android:inputType="number" />
                 </LinearLayout>
                 <LinearLayout
@@ -184,6 +187,8 @@
                     android:id="@+id/impuestoEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:enabled="false"
                     android:inputType="number" />
                 </LinearLayout>
                 <LinearLayout
@@ -199,6 +204,8 @@
                         android:id="@+id/totalEditText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:enabled="false"
                         android:inputType="number" />
                 </LinearLayout>
 
