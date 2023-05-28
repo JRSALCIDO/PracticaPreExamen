@@ -21,6 +21,14 @@
             android:gravity="center"
             tools:ignore="HardcodedText"
             android:background="@color/fondo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            tools:ignore="HardcodedText" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
