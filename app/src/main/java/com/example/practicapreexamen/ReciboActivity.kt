@@ -5,12 +5,20 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.RadioGroup
+import android.widget.TextView
 import android.widget.Toast
 
 class ReciboActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recibo)
+
+        val textView = findViewById<TextView>(R.id.nombref)
+
+        val userInput = intent.getStringExtra("nombre")
+        textView.text = userInput
+
+
 
         val numeroReciboEditText = findViewById<EditText>(R.id.numeroReciboEditText)
         val nombreEditText = findViewById<EditText>(R.id.nombreEditText)

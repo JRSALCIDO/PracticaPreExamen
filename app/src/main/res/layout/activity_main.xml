@@ -49,9 +49,9 @@
             android:gravity="center"
             android:textColor="@color/black"
             android:minHeight="48dp"
-            android:text="@string/nombre"
+
             android:textStyle="bold"
-            android:enabled="false"/>
+            android:enabled="true"/>
     </LinearLayout>
 
         <ImageView

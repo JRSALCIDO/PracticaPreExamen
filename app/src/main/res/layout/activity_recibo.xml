@@ -23,9 +23,9 @@
             android:textColor="@color/black"
             android:background="@color/fondo"/>
         <TextView
+            android:id="@+id/nombref"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/nombre"
             android:textSize="25dp"
             android:textStyle="bold"
             android:gravity="center"
